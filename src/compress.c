@@ -7,7 +7,7 @@
 /* @(#) $Id$ */
 
 #define ZLIB_INTERNAL
-#include "zlib.h"
+#include "tinysigcomp/zlib.h"
 
 /* ===========================================================================
      Compresses the source buffer into the destination buffer. The level
@@ -85,4 +85,3 @@ uLong sourceLen;
     return sourceLen + (sourceLen >> 12) + (sourceLen >> 14) + 11;
 }
 #endif // HAS_ZLIB
-

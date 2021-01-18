@@ -30,7 +30,7 @@
  *
 
  */
-#include "tcomp_compartment.h"
+#include "tinysigcomp/tcomp_compartment.h"
 
 #include "tinysak/tsk_debug.h"
 

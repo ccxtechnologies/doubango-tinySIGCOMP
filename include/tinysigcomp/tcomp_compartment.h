@@ -32,10 +32,10 @@
 
 #include "tinysigcomp_config.h"
 
-#include "tcomp_types.h"
-#include "tcomp_params.h"
-#include "tcomp_compressordata.h"
-#include "tcomp_result.h"
+#include "tinysigcomp/tcomp_types.h"
+#include "tinysigcomp/tcomp_params.h"
+#include "tinysigcomp/tcomp_compressordata.h"
+#include "tinysigcomp/tcomp_result.h"
 
 #include "tinysak/tsk_safeobj.h"
 #include "tinysak/tsk_object.h"

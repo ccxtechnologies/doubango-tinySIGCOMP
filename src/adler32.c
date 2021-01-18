@@ -7,7 +7,7 @@
 /* @(#) $Id$ */
 
 #define ZLIB_INTERNAL
-#include "zlib.h"
+#include "tinysigcomp/zlib.h"
 
 #define BASE 65521UL    /* largest prime smaller than 65536 */
 #define NMAX 5552
@@ -162,4 +162,3 @@ z_off_t len2;
     return sum1 | (sum2 << 16);
 }
 #endif // HAS_ZLIB
-

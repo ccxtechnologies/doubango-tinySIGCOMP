@@ -31,9 +31,9 @@
 #define TCOMP_COMPRESSORDEFLATE_DATA_H
 
 #include "tinysigcomp_config.h"
-#include "tcomp_params.h"
-#include "tcomp_state.h"
-#include "tcomp_compressordata.h"
+#include "tinysigcomp/tcomp_params.h"
+#include "tinysigcomp/tcomp_state.h"
+#include "tinysigcomp/tcomp_compressordata.h"
 
 #if HAS_ZLIB
 #	include <zlib.h>

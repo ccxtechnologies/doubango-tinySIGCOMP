@@ -27,12 +27,12 @@
  *
 
  */
-#include "tcomp_manager.h"
+#include "tinysigcomp/tcomp_manager.h"
 #include "tinysak/tsk_debug.h"
 
-#include "tcomp_compressordisp.h"
-#include "tcomp_decompressordisp.h"
-#include "tcomp_statehandler.h"
+#include "tinysigcomp/tcomp_compressordisp.h"
+#include "tinysigcomp/tcomp_decompressordisp.h"
+#include "tinysigcomp/tcomp_statehandler.h"
 
 #include "tinysak/tsk_object.h"
 #include "tinysak/tsk_safeobj.h"

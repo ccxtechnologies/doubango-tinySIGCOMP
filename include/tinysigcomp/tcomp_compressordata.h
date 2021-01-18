@@ -31,7 +31,7 @@
 #define TCOMP_COMPRESSOR_DATA_H
 
 #include "tinysigcomp_config.h"
-#include "tcomp_buffer.h"
+#include "tinysigcomp/tcomp_buffer.h"
 
 TCOMP_BEGIN_DECLS
 
@@ -46,8 +46,8 @@ typedef void (*tcomp_xxx_ackGhost)(tcomp_compressordata_t *data, const tcomp_buf
 	tcomp_xxx_freeGhostState freeGhostState; \
 	tcomp_xxx_ackGhost ackGhost
 
-//#include "tcomp_state.h"
-//#include "tcomp_buffer.h"
+//#include "tinysigcomp/tcomp_state.h"
+//#include "tinysigcomp/tcomp_buffer.h"
 //
 //#include "tinysak/tsk_object.h"
 //#include "tinysak/tsk_safeobj.h"

@@ -32,7 +32,7 @@
 
 #include "tinysigcomp_config.h"
 
-#include "tcomp_buffer.h"
+#include "tinysigcomp/tcomp_buffer.h"
 #include "tinysak/tsk_safeobj.h"
 #include "tinysak/tsk_list.h"
 

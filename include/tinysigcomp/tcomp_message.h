@@ -31,8 +31,8 @@
 #define TCOMP_MESSAGE_H
 
 #include "tinysigcomp_config.h"
-#include "tcomp_buffer.h"
-#include "tcomp_nackinfo.h"
+#include "tinysigcomp/tcomp_buffer.h"
+#include "tinysigcomp/tcomp_nackinfo.h"
 #include "tinysak/tsk_object.h"
 
 TCOMP_BEGIN_DECLS

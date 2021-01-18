@@ -27,14 +27,14 @@
  *
 
  */
-#include "tcomp_deflatedata.h"
+#include "tinysigcomp/tcomp_deflatedata.h"
 #include "tinysak/tsk_debug.h"
 
 
 tsk_bool_t tcomp_deflateStream_end(tcomp_deflateStream_t *stream)
 {
     if(!stream) {
-        TSK_DEBUG_ERROR("NULL defalte stream.");
+        TSK_DEBUG_ERROR("NULL deflate stream.");
         return tsk_false;
     }
 
@@ -44,7 +44,7 @@ tsk_bool_t tcomp_deflateStream_end(tcomp_deflateStream_t *stream)
 tsk_bool_t tcomp_deflateStream_copy(tcomp_deflateStream_t *stream, tcomp_deflateStream_t *source)
 {
     if(!stream) {
-        TSK_DEBUG_ERROR("NULL defalte stream.");
+        TSK_DEBUG_ERROR("NULL deflate stream.");
         return tsk_false;
     }
 
@@ -54,7 +54,7 @@ tsk_bool_t tcomp_deflateStream_copy(tcomp_deflateStream_t *stream, tcomp_deflate
 tsk_bool_t tcomp_deflatedata_zInit(tcomp_deflatedata_t *deflatedata)
 {
     if(!deflatedata) {
-        TSK_DEBUG_ERROR("NULL defalte data.");
+        TSK_DEBUG_ERROR("NULL deflate data.");
         return tsk_false;
     }
 
@@ -93,7 +93,7 @@ tsk_bool_t tcomp_deflatedata_zInit(tcomp_deflatedata_t *deflatedata)
 tsk_bool_t tcomp_deflatedata_zUnInit(tcomp_deflatedata_t *deflatedata)
 {
     if(!deflatedata) {
-        TSK_DEBUG_ERROR("NULL defalte data.");
+        TSK_DEBUG_ERROR("NULL deflate data.");
         return tsk_false;
     }
 
@@ -113,7 +113,7 @@ tsk_bool_t tcomp_deflatedata_zReset(tcomp_deflatedata_t *deflatedata)
     tsk_bool_t ret;
 
     if(!deflatedata) {
-        TSK_DEBUG_ERROR("NULL defalte data.");
+        TSK_DEBUG_ERROR("NULL deflate data.");
         return tsk_false;
     }
 

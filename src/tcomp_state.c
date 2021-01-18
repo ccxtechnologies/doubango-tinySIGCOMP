@@ -27,7 +27,7 @@
  *
 
  */
-#include "tcomp_state.h"
+#include "tinysigcomp/tcomp_state.h"
 #include "tinysak/tsk_memory.h"
 #include "tinysak/tsk_debug.h"
 #include "tinysak/tsk_sha1.h"

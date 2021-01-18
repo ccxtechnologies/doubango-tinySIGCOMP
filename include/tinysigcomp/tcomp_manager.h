@@ -32,9 +32,9 @@
 
 #include "tinysigcomp_config.h"
 
-#include "tcomp_result.h"
-#include "tcomp_compressor.h"
-#include "tcomp_nackinfo.h"
+#include "tinysigcomp/tcomp_result.h"
+#include "tinysigcomp/tcomp_compressor.h"
+#include "tinysigcomp/tcomp_nackinfo.h"
 
 TCOMP_BEGIN_DECLS
 

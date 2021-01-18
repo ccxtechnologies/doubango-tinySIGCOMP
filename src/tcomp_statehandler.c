@@ -28,11 +28,11 @@
  *
 
  */
-#include "tcomp_statehandler.h"
-#include "tcomp_rfc5049_sip.h"
-#include "tcomp_nack_codes.h"
-#include "tcomp_dicts.h"
-#include "tcomp_udvm.h"
+#include "tinysigcomp/tcomp_statehandler.h"
+#include "tinysigcomp/tcomp_rfc5049_sip.h"
+#include "tinysigcomp/tcomp_nack_codes.h"
+#include "tinysigcomp/tcomp_dicts.h"
+#include "tinysigcomp/tcomp_udvm.h"
 
 #include "tinysak/tsk_debug.h"
 

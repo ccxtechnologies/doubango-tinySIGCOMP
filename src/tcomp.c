@@ -27,7 +27,7 @@
  *
 
  */
-#include "tcomp.h"
+#include "tinysigcomp/tcomp.h"
 
 /** @mainpage tinySigComp API Overview
 *
@@ -111,7 +111,7 @@
 * Include header files:
 * @code
 * #include "tinysak/tsk_debug.h" // tinySAK debugging functions.
-* #include "tcomp_manager.h" // tinySigComp API functions.
+* #include "tinysigcomp/tcomp_manager.h" // tinySigComp API functions.
 * @endcode
 *
 * Compartment Identifier: Used in SIP messages (sigomp-id) and tinySigComp to allocate/deallocate memory associated

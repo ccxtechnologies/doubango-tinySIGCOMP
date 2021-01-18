@@ -27,7 +27,7 @@
  *
 
  */
-#include "tcomp_deflatedata.h"
+#include "tinysigcomp/tcomp_deflatedata.h"
 
 #include "tinysak/tsk_binaryutils.h"
 #include "tinysak/tsk_debug.h"
@@ -112,12 +112,12 @@ void tcomp_deflatedata_createGhost(tcomp_deflatedata_t *deflatedata, uint32_t st
 #define GHOSTVALUE_AT(position) (ghostvalue_ptr + position)
 
     if(!deflatedata) {
-        TSK_DEBUG_ERROR("NULL defalte data.");
+        TSK_DEBUG_ERROR("NULL deflate data.");
         return;
     }
 
     if(deflatedata->ghostState) {
-        TSK_DEBUG_ERROR("The defalte data already have a ghost state. This MUST never happen.");
+        TSK_DEBUG_ERROR("The deflate data already have a ghost state. This MUST never happen.");
         return;
     }
 
@@ -176,7 +176,7 @@ void tcomp_deflatedata_ackGhost(tcomp_compressordata_t *data, const tcomp_buffer
 {
     tcomp_deflatedata_t *deflatedata = data;
     if(!deflatedata) {
-        TSK_DEBUG_ERROR("NULL defalte data.");
+        TSK_DEBUG_ERROR("NULL deflate data.");
         return;
     }
 
@@ -208,7 +208,7 @@ void tcomp_deflatedata_updateGhost(tcomp_deflatedata_t *deflatedata, const uint8
 #define GHOSTVALUE_AT(position) (ghostvalue_ptr + position)
 
     if(!deflatedata) {
-        TSK_DEBUG_ERROR("NULL defalte data.");
+        TSK_DEBUG_ERROR("NULL deflate data.");
         return;
     }
 
@@ -254,7 +254,7 @@ void tcomp_deflatedata_updateGhost(tcomp_deflatedata_t *deflatedata, const uint8
 uint32_t* tcomp_deflatedata_getGhostCopyOffset(tcomp_deflatedata_t *deflatedata)
 {
     if(!deflatedata) {
-        TSK_DEBUG_ERROR("NULL defalte data.");
+        TSK_DEBUG_ERROR("NULL deflate data.");
         return 0;
     }
 
@@ -265,7 +265,7 @@ void tcomp_deflatedata_freeGhostState(tcomp_compressordata_t *data)
 {
     tcomp_deflatedata_t *deflatedata = data;
     if(!deflatedata) {
-        TSK_DEBUG_ERROR("NULL defalte data.");
+        TSK_DEBUG_ERROR("NULL deflate data.");
         return;
     }
 

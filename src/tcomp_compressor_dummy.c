@@ -28,8 +28,8 @@
 
  */
 
-#include "tcomp_compressor_dummy.h"
-#include "tcomp_buffer.h"
+#include "tinysigcomp/tcomp_compressor_dummy.h"
+#include "tinysigcomp/tcomp_buffer.h"
 
 #include <string.h>
 

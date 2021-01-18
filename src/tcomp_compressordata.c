@@ -27,7 +27,7 @@
 // *
 //
 // */
-//#include "tcomp_compressordata.h"
+//#include "tinysigcomp/tcomp_compressordata.h"
 //
 //#include "tinysak/tsk_debug.h"
 //

@@ -20,23 +20,25 @@
 *
 */
 
-/**@file tcomp_compressor.h
- * @brief  Deflate compressor.
+/**@file tcomp_dicts.h
+ * @brief SigComp Dictionaries
  *
  * @author Mamadou Diop <diopmamadou(at)yahoo.fr>
  *
 
  */
-#ifndef TCOMP_COMPRESSORDEFLATE_H
-#define TCOMP_COMPRESSORDEFLATE_H
+
+#ifndef _TINYSIGCOMP_DICTS_H_
+#define _TINYSIGCOMP_DICTS_H_
 
 #include "tinysigcomp_config.h"
-#include "tcomp_compartment.h"
+#include "tinysigcomp/tcomp_state.h"
 
 TCOMP_BEGIN_DECLS
 
-tsk_bool_t tcomp_compressor_deflate_compress(tcomp_compartment_t *lpCompartment, const void *input_ptr, tsk_size_t input_size, void *output_ptr, tsk_size_t *output_size, tsk_bool_t stream);
+extern tcomp_dictionary_t* tcomp_dicts_create_presence_dict();
+extern tcomp_dictionary_t* tcomp_dicts_create_sip_dict();
 
 TCOMP_END_DECLS
 
-#endif /* TCOMP_COMPRESSORDEFLATE_H */
+#endif /* _TINYSIGCOMP_DICTS_H_ */

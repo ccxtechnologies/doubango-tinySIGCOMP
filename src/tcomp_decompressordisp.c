@@ -27,9 +27,9 @@
  *
 
  */
-#include "tcomp_decompressordisp.h"
-#include "tcomp_message.h"
-#include "tcomp_udvm.h"
+#include "tinysigcomp/tcomp_decompressordisp.h"
+#include "tinysigcomp/tcomp_message.h"
+#include "tinysigcomp/tcomp_udvm.h"
 
 #include "tinysak/tsk_debug.h"
 

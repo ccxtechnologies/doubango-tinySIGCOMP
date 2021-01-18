@@ -32,10 +32,10 @@
 
 #include "tinysigcomp_config.h"
 
-#include "tcomp_state.h"
-#include "tcomp_reqfeed.h"
-#include "tcomp_params.h"
-#include "tcomp_buffer.h"
+#include "tinysigcomp/tcomp_state.h"
+#include "tinysigcomp/tcomp_reqfeed.h"
+#include "tinysigcomp/tcomp_params.h"
+#include "tinysigcomp/tcomp_buffer.h"
 
 #include "tinysak/tsk_object.h"
 

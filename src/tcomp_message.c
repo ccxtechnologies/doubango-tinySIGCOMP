@@ -30,8 +30,8 @@
  *
 
  */
-#include "tcomp_message.h"
-#include "tcomp_nack_codes.h"
+#include "tinysigcomp/tcomp_message.h"
+#include "tinysigcomp/tcomp_nack_codes.h"
 
 #include "tinysak/tsk_memory.h"
 #include "tinysak/tsk_debug.h"

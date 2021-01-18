@@ -27,7 +27,7 @@
  *
 
  */
-#include "tcomp_buffer.h"
+#include "tinysigcomp/tcomp_buffer.h"
 #include "tinysak/tsk_binaryutils.h"
 #include "tinysak/tsk_memory.h"
 #include "tinysak/tsk_debug.h"

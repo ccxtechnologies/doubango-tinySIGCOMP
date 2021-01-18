@@ -28,9 +28,9 @@
  *
 
  */
-#include "tcomp_compressordisp.h"
-#include "tcomp_compressor_dummy.h"
-#include "tcomp_compressor_deflate.h"
+#include "tinysigcomp/tcomp_compressordisp.h"
+#include "tinysigcomp/tcomp_compressor_dummy.h"
+#include "tinysigcomp/tcomp_compressor_deflate.h"
 
 #include "tinysak/tsk_memory.h"
 #include "tinysak/tsk_debug.h"

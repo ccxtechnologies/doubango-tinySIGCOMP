@@ -32,11 +32,11 @@
 #define TCOMP_COMPRESSORDISP_H
 
 #include "tinysigcomp_config.h"
-#include "tcomp_statehandler.h"
-#include "tcomp_buffer.h"
-#include "tcomp_types.h"
-#include "tcomp_result.h"
-#include "tcomp_compressor.h"
+#include "tinysigcomp/tcomp_statehandler.h"
+#include "tinysigcomp/tcomp_buffer.h"
+#include "tinysigcomp/tcomp_types.h"
+#include "tinysigcomp/tcomp_result.h"
+#include "tinysigcomp/tcomp_compressor.h"
 
 #include "tinysak/tsk_list.h"
 #include "tinysak/tsk_object.h"

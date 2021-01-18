@@ -23,9 +23,9 @@
 /**@file tcomp_nackinfo.c
  * @brief  RFC 4077 - A Negative Acknowledgement Mechanism for Signaling Compression (NACK).
  */
-#include "tcomp_nackinfo.h"
-#include "tcomp_message.h"
-#include "tcomp_nack_codes.h"
+#include "tinysigcomp/tcomp_nackinfo.h"
+#include "tinysigcomp/tcomp_message.h"
+#include "tinysigcomp/tcomp_nack_codes.h"
 
 #include "tinysak/tsk_sha1.h"
 #include "tinysak/tsk_memory.h"

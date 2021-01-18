@@ -27,8 +27,8 @@
  *
 
  */
-#include "tcomp_compressor_deflate.h"
-#include "tcomp_deflatedata.h"
+#include "tinysigcomp/tcomp_compressor_deflate.h"
+#include "tinysigcomp/tcomp_deflatedata.h"
 
 #include "tinysak/tsk_debug.h"
 

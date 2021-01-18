@@ -6,7 +6,7 @@
 
 /* @(#) $Id$ */
 
-#include "zutil.h"
+#include "tinysigcomp/zutil.h"
 
 #ifndef NO_DUMMY_DECL
 struct internal_state      {

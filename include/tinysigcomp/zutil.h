@@ -15,7 +15,7 @@
 #define ZUTIL_H
 
 #define ZLIB_INTERNAL
-#include "zlib.h"
+#include "tinysigcomp/zlib.h"
 
 #if defined(STDC) && !defined(__SYMBIAN32__)
 #  ifndef _WIN32_WCE

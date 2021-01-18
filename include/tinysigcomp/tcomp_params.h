@@ -31,7 +31,7 @@
 #define TCOMP_PARAMS_H
 
 #include "tinysigcomp_config.h"
-#include "tcomp_types.h"
+#include "tinysigcomp/tcomp_types.h"
 #include "tinysak/tsk_object.h"
 
 /**@typedef tcomp_params_t

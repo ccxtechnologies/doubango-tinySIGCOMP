@@ -27,11 +27,11 @@
  *
 
  */
-#include "tcomp_dicts.h"
-#include "tcomp_buffer.h"
+#include "tinysigcomp/tcomp_dicts.h"
+#include "tinysigcomp/tcomp_buffer.h"
 
-#include "tcomp_rfc3485_dictionary_sip.h"
-#include "tcomp_rfc5112_dictionary_presence.h"
+#include "tinysigcomp/tcomp_rfc3485_dictionary_sip.h"
+#include "tinysigcomp/tcomp_rfc5112_dictionary_presence.h"
 
 #include "tinysak/tsk_debug.h"
 

@@ -27,7 +27,7 @@
  *
 
  */
-#include "tcomp_udvm.h"
+#include "tinysigcomp/tcomp_udvm.h"
 
 
 int tcomp_udvm_byteCopy_TempStates(tcomp_udvm_t *udvm)

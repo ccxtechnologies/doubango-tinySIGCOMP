@@ -27,7 +27,7 @@
  *
 
  */
-#include "tcomp_deflatedata.h"
+#include "tinysigcomp/tcomp_deflatedata.h"
 
 #include "tinysak/tsk_debug.h"
 
@@ -40,7 +40,7 @@ tcomp_deflatedata_t* tcomp_deflatedata_create_2(tsk_bool_t isStream, int z_level
         deflatedata->zWindowBits = z_windowBits;
     }
     else {
-        TSK_DEBUG_ERROR("Null SigComp defalte data.");
+        TSK_DEBUG_ERROR("Null SigComp deflate data.");
     }
 
     return deflatedata;
@@ -58,7 +58,7 @@ tcomp_deflatedata_t* tcomp_deflatedata_create(tsk_bool_t isStream, tsk_bool_t us
 tsk_bool_t tcomp_deflatedata_isStateful(tcomp_deflatedata_t *deflatedata)
 {
     if(!deflatedata) {
-        TSK_DEBUG_ERROR("NULL defalte data.");
+        TSK_DEBUG_ERROR("NULL deflate data.");
         return tsk_false;
     }
 
@@ -99,7 +99,7 @@ static void* tcomp_deflatedata_dtor(void *self)
         tcomp_deflatedata_zUnInit(deflatedata);
     }
     else {
-        TSK_DEBUG_ERROR("Null SigComp defalte data.");
+        TSK_DEBUG_ERROR("Null SigComp deflate data.");
     }
 
     return self;

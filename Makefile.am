@@ -36,5 +36,5 @@ libtinySIGCOMP_la_SOURCES = \
 
 libtinySIGCOMP_la_LDFLAGS = $LDFLAGS -no-undefined -ltinySAK
 
-libtinySIGCOMP_la_HEADERS = src/*.h
+libtinySIGCOMP_la_HEADERS = include/tinysigcomp/*.h
 libtinySIGCOMP_ladir = $(includedir)/tinysigcomp

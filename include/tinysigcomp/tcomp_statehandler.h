@@ -32,13 +32,13 @@
 
 #include "tinysigcomp_config.h"
 
-#include "tcomp_types.h"
-#include "tcomp_params.h"
-#include "tcomp_nackinfo.h"
-#include "tcomp_result.h"
-#include "tcomp_buffer.h"
-#include "tcomp_compartment.h"
-#include "tcomp_state.h"
+#include "tinysigcomp/tcomp_types.h"
+#include "tinysigcomp/tcomp_params.h"
+#include "tinysigcomp/tcomp_nackinfo.h"
+#include "tinysigcomp/tcomp_result.h"
+#include "tinysigcomp/tcomp_buffer.h"
+#include "tinysigcomp/tcomp_compartment.h"
+#include "tinysigcomp/tcomp_state.h"
 
 #include "tinysak/tsk_safeobj.h"
 #include "tinysak/tsk_object.h"

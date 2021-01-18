@@ -22,7 +22,7 @@
 /**@file tcomp_udvm.c
  * @brief  SigComp UDVM machine.
  */
-#include "tcomp_udvm.h"
+#include "tinysigcomp/tcomp_udvm.h"
 
 #include "tinysak/tsk_memory.h"
 #include "tinysak/tsk_debug.h"

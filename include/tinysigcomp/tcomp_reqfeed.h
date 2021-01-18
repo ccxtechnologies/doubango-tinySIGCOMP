@@ -31,7 +31,7 @@
 #define TCOMP_REQ_FEEDBACK_H
 
 #include "tinysigcomp_config.h"
-#include "tcomp_buffer.h"
+#include "tinysigcomp/tcomp_buffer.h"
 #include "tinysak/tsk_object.h"
 
 TCOMP_BEGIN_DECLS
