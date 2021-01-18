@@ -33,10 +33,10 @@
 #include "tcomp_message.h"
 #include "tcomp_nack_codes.h"
 
-#include "tsk_memory.h"
-#include "tsk_debug.h"
-#include "tsk_binaryutils.h"
-#include "tsk_sha1.h"
+#include "tinysak/tsk_memory.h"
+#include "tinysak/tsk_debug.h"
+#include "tinysak/tsk_binaryutils.h"
+#include "tinysak/tsk_sha1.h"
 
 #include <string.h>
 

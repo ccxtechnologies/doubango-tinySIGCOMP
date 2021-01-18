@@ -30,7 +30,7 @@
 #include "tcomp_compressor_deflate.h"
 #include "tcomp_deflatedata.h"
 
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 #include <string.h>
 

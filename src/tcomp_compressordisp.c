@@ -32,8 +32,8 @@
 #include "tcomp_compressor_dummy.h"
 #include "tcomp_compressor_deflate.h"
 
-#include "tsk_memory.h"
-#include "tsk_debug.h"
+#include "tinysak/tsk_memory.h"
+#include "tinysak/tsk_debug.h"
 
 #include <string.h>
 

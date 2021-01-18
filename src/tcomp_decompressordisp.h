@@ -37,8 +37,8 @@
 #include "tcomp_result.h"
 
 
-#include "tsk_object.h"
-#include "tsk_safeobj.h"
+#include "tinysak/tsk_object.h"
+#include "tinysak/tsk_safeobj.h"
 
 TCOMP_BEGIN_DECLS
 

@@ -49,8 +49,8 @@ typedef void (*tcomp_xxx_ackGhost)(tcomp_compressordata_t *data, const tcomp_buf
 //#include "tcomp_state.h"
 //#include "tcomp_buffer.h"
 //
-//#include "tsk_object.h"
-//#include "tsk_safeobj.h"
+//#include "tinysak/tsk_object.h"
+//#include "tinysak/tsk_safeobj.h"
 //
 //#define TCOMP_COMPRESSORDATA_CREATE(isStream)		tsk_object_new(tsk_compressordata_def_t, isStream)
 //

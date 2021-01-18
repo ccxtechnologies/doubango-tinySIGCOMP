@@ -33,8 +33,8 @@
 #include "tinysigcomp_config.h"
 
 #include "tcomp_buffer.h"
-#include "tsk_safeobj.h"
-#include "tsk_list.h"
+#include "tinysak/tsk_safeobj.h"
+#include "tinysak/tsk_list.h"
 
 TCOMP_BEGIN_DECLS
 

@@ -28,7 +28,7 @@
 
  */
 #include "tcomp_deflatedata.h"
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 
 tsk_bool_t tcomp_deflateStream_end(tcomp_deflateStream_t *stream)
@@ -212,4 +212,3 @@ void tcomp_deflatedata_zSetWindowBits(tcomp_deflatedata_t *deflatedata, int wind
 
     deflatedata->zWindowBits = windowSize;
 }
-

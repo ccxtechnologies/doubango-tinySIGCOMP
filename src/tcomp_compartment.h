@@ -37,9 +37,9 @@
 #include "tcomp_compressordata.h"
 #include "tcomp_result.h"
 
-#include "tsk_safeobj.h"
-#include "tsk_object.h"
-#include "tsk_sha1.h"
+#include "tinysak/tsk_safeobj.h"
+#include "tinysak/tsk_object.h"
+#include "tinysak/tsk_sha1.h"
 
 TCOMP_BEGIN_DECLS
 

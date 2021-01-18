@@ -2,7 +2,6 @@ AC_PREREQ([2.52])
 AC_INIT(libtinySIGCOMP, 0.1, diopmamadou@doubango.org)
 AM_INIT_AUTOMAKE([gnu subdir-objects])
 AC_CONFIG_HEADERS([config.h])
-AC_CONFIG_SRCDIR([src/tsk.c])
 AC_CONFIG_MACRO_DIRS([m4])
 
 dnl find suitable C++ compiler
@@ -79,5 +78,4 @@ AC_TRY_COMPILE([#include <pthread.h>],
 
 AC_OUTPUT(
 Makefile
-src/Makefile
 )

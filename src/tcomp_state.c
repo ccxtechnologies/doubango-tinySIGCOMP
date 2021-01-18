@@ -28,9 +28,9 @@
 
  */
 #include "tcomp_state.h"
-#include "tsk_memory.h"
-#include "tsk_debug.h"
-#include "tsk_sha1.h"
+#include "tinysak/tsk_memory.h"
+#include "tinysak/tsk_debug.h"
+#include "tinysak/tsk_sha1.h"
 
 /** Creates new SigComp state.
 */
@@ -209,4 +209,3 @@ static const tsk_object_def_t tcomp_state_def_s = {
     tcomp_state_cmp
 };
 const tsk_object_def_t *tcomp_state_def_t = &tcomp_state_def_s;
-

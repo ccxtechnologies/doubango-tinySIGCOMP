@@ -29,9 +29,9 @@
  */
 #include "tcomp_udvm.h"
 
-#include "tsk_memory.h"
-#include "tsk_debug.h"
-#include "tsk_ppfcs16.h"
+#include "tinysak/tsk_memory.h"
+#include "tinysak/tsk_debug.h"
+#include "tinysak/tsk_ppfcs16.h"
 
 #include <string.h> /* memcpy */
 #include <stdlib.h> /* qsort */
@@ -68,7 +68,7 @@
 		return tsk_false;	\
 	}\
 	TCOMP_UDVM_SET_2BYTES_VAL(position, value);\
- 
+
 #define GET_2BYTES_VAL(position, ret_val) \
 	if(((position) + 1) >= TCOMP_UDVM_GET_SIZE()) \
 	{ \
@@ -2020,4 +2020,3 @@ tsk_bool_t TCOMP_UDVM_EXEC_INST__END_MESSAGE(tcomp_udvm_t *udvm, uint32_t reques
 
     return tsk_true;
 }
-

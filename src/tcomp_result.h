@@ -37,7 +37,7 @@
 #include "tcomp_params.h"
 #include "tcomp_buffer.h"
 
-#include "tsk_object.h"
+#include "tinysak/tsk_object.h"
 
 TCOMP_BEGIN_DECLS
 

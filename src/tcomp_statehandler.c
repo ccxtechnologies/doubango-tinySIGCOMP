@@ -34,7 +34,7 @@
 #include "tcomp_dicts.h"
 #include "tcomp_udvm.h"
 
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 static int pred_find_compartment_by_id(const tsk_list_item_t *item, const void *id)
 {

@@ -29,7 +29,7 @@
  */
 #include "tcomp_deflatedata.h"
 
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 tcomp_deflatedata_t* tcomp_deflatedata_create_2(tsk_bool_t isStream, int z_level, int z_windowBits)
 {

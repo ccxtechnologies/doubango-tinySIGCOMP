@@ -40,9 +40,9 @@
 #include "tcomp_headers_index.h"
 #include "tcomp_instructions.h"
 
-#include "tsk_object.h"
+#include "tinysak/tsk_object.h"
 
-#include "tsk_binaryutils.h"
+#include "tinysak/tsk_binaryutils.h"
 
 TCOMP_BEGIN_DECLS
 

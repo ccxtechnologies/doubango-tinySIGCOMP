@@ -1,6 +1,5 @@
 lib_LTLIBRARIES         = libtinySIGCOMP.la
-libtinySIGCOMP_la_LIBADD = ../tinySAK/libtinySAK.la
-libtinySIGCOMP_la_CPPFLAGS = -I../tinySAK/src -Iinclude
+libtinySIGCOMP_la_CPPFLAGS = -Iinclude
 
 libtinySIGCOMP_la_SOURCES = \
 	src/adler32.c\
@@ -35,7 +34,7 @@ libtinySIGCOMP_la_SOURCES = \
 	src/trees.c\
 	src/zutil.c
 
-libtinySIGCOMP_la_LDFLAGS = $LDFLAGS -no-undefined
+libtinySIGCOMP_la_LDFLAGS = $LDFLAGS -no-undefined -ltinySAK
 
 libtinySIGCOMP_la_HEADERS = src/*.h
 libtinySIGCOMP_ladir = $(includedir)/tinysigcomp

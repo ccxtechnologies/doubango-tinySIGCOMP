@@ -32,7 +32,7 @@
  */
 #include "tcomp_compartment.h"
 
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 #include <assert.h>
 

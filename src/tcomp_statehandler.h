@@ -40,8 +40,8 @@
 #include "tcomp_compartment.h"
 #include "tcomp_state.h"
 
-#include "tsk_safeobj.h"
-#include "tsk_object.h"
+#include "tinysak/tsk_safeobj.h"
+#include "tinysak/tsk_object.h"
 
 TCOMP_BEGIN_DECLS
 

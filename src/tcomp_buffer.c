@@ -28,9 +28,9 @@
 
  */
 #include "tcomp_buffer.h"
-#include "tsk_binaryutils.h"
-#include "tsk_memory.h"
-#include "tsk_debug.h"
+#include "tinysak/tsk_binaryutils.h"
+#include "tinysak/tsk_memory.h"
+#include "tinysak/tsk_debug.h"
 
 #include <string.h>
 
@@ -660,4 +660,3 @@ static const tsk_object_def_t tcomp_buffer_def_s = {
     tsk_null
 };
 const tsk_object_def_t *tcomp_buffer_def_t = &tcomp_buffer_def_s;
-

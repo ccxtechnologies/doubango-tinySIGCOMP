@@ -110,7 +110,7 @@
 *
 * Include header files:
 * @code
-* #include "tsk_debug.h" // tinySAK debugging functions.
+* #include "tinysak/tsk_debug.h" // tinySAK debugging functions.
 * #include "tcomp_manager.h" // tinySigComp API functions.
 * @endcode
 *

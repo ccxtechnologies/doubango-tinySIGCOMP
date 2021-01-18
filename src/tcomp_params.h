@@ -32,7 +32,7 @@
 
 #include "tinysigcomp_config.h"
 #include "tcomp_types.h"
-#include "tsk_object.h"
+#include "tinysak/tsk_object.h"
 
 /**@typedef tcomp_params_t
 * SIGCOMP parameters as per rfc 3320 subclause 3.3.

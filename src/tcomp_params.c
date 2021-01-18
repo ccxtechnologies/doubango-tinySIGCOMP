@@ -28,9 +28,9 @@
 
  */
 #include "tcomp_params.h"
-#include "tsk_binaryutils.h"
-#include "tsk_memory.h"
-#include "tsk_debug.h"
+#include "tinysak/tsk_binaryutils.h"
+#include "tinysak/tsk_memory.h"
+#include "tinysak/tsk_debug.h"
 
 tcomp_params_t* tcomp_params_create()
 {

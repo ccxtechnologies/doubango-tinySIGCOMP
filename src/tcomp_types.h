@@ -23,7 +23,7 @@
 #ifndef TCOMP_TYPES_H
 #define TCOMP_TYPES_H
 
-#include "tsk_list.h"
+#include "tinysak/tsk_list.h"
 
 TCOMP_BEGIN_DECLS
 

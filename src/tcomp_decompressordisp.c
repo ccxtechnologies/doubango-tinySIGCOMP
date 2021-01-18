@@ -31,7 +31,7 @@
 #include "tcomp_message.h"
 #include "tcomp_udvm.h"
 
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 #include <assert.h>
 #include <string.h>

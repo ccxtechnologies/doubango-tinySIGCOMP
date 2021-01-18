@@ -29,7 +29,7 @@
  */
 #include "tcomp_udvm.h"
 
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 #include <math.h>
 

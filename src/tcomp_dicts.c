@@ -33,7 +33,7 @@
 #include "tcomp_rfc3485_dictionary_sip.h"
 #include "tcomp_rfc5112_dictionary_presence.h"
 
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 /**Presence-Specific Static Dictionary for Signaling Compression as per RFC 5112.
 */
@@ -93,4 +93,3 @@ tcomp_dictionary_t* tcomp_dicts_create_sip_dict()
 
     return tsk_object_ref(sip_dict);
 }
-

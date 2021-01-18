@@ -27,9 +27,9 @@
 #include "tcomp_message.h"
 #include "tcomp_nack_codes.h"
 
-#include "tsk_sha1.h"
-#include "tsk_memory.h"
-#include "tsk_debug.h"
+#include "tinysak/tsk_sha1.h"
+#include "tinysak/tsk_memory.h"
+#include "tinysak/tsk_debug.h"
 
 /* "OPCODE of failed instruction" is a one-byte field that includes
 the opcode to which the PC was pointing when the failure occurred.
@@ -223,4 +223,3 @@ static const tsk_object_def_t tcomp_nackinfo_def_s = {
     tsk_null
 };
 const tsk_object_def_t* tcomp_nackinfo_def_t = &tcomp_nackinfo_def_s;
-

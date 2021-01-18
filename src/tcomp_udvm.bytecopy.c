@@ -29,7 +29,7 @@
  */
 #include "tcomp_udvm.h"
 
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 
 #define TCOMP_UDVM_MEMORY_REGISTERS_PTR TCOMP_UDVM_GET_BUFFER_AT(UDVM_REGISTERS_START)

@@ -28,14 +28,14 @@
 
  */
 #include "tcomp_manager.h"
-#include "tsk_debug.h"
+#include "tinysak/tsk_debug.h"
 
 #include "tcomp_compressordisp.h"
 #include "tcomp_decompressordisp.h"
 #include "tcomp_statehandler.h"
 
-#include "tsk_object.h"
-#include "tsk_safeobj.h"
+#include "tinysak/tsk_object.h"
+#include "tinysak/tsk_safeobj.h"
 
 #define MAX_DMS	131072
 #define MAX_SMS	131072
